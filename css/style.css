@@ -1,0 +1,15 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0; }
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; }
+
+body {
+  font-family: 'Raleway', sans-serif;
+  color: #1F306E;
+  font-weight: 300;
+  line-height: 1.6; }

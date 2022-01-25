@@ -1,0 +1,29 @@
+// COLOR VARIABLES
+$color-gray:         #EBEBEB;
+$color-primary:      #1F306E;
+$color-secondary:    #F5487F;
+$color-pink-light:   #C7417B;
+$color-pink-dark:    #8F3B76;
+$color-purple-light: #69529F;
+$color-purple-dark:  #463864;
+$color-white:        #FFFFFF;
+$color-black:        #000000;
+
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin:  0;
+}
+
+html {
+    box-sizing: border-box;
+    font-size:  62.5%;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    color:       $color-primary;
+    font-weight: 300;
+    line-height: 1.6;
+}
