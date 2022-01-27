@@ -9,6 +9,12 @@ $color-purple-dark:  #463864;
 $color-white:        #FFFFFF;
 $color-black:        #000000;
 
+// GRID
+$grid-width:            114rem;
+$gutter-vertical-small: 4rem;
+$gutter-vertical:       6rem;
+$gutter-horizontal:     8rem;
+
 *,
 *::after,
 *::before {
@@ -26,4 +32,12 @@ body {
     color:       $color-primary;
     font-weight: 300;
     line-height: 1.6;
+}
+
+.container {
+    display:               grid;
+    grid-template-rows:    min-content 60vh repeat(4, min-content);
+    grid-template-columns: [full-start] minmax(2rem, 1fr) [center-start] repeat(12, [col-start] minmax(min-content, 10rem) [col-end]) [center-end] 
+                           minmax(2rem, 1fr) [full-end];
+    grid-gap:              5rem 0;
 }
