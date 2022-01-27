@@ -1,5 +1,23 @@
 .details {
-    background-color: darkmagenta;
+    background-color: $color-primary;
+    color: $color-gray;
     grid-row: 4 / 5;
-    grid-column: center-start / center-end;
+    grid-column: full-start / full-end;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(26rem, 1fr));
+    grid-gap: 8rem 5rem;
+    padding: 15%;
+
+    &__section {
+        
+        &__title {
+            font-size: 2rem;
+            font-weight: 600;
+            text-transform: capitalize;
+        }
+
+        &__text {
+            font-size: 1.5rem;
+        }
+    }
 }
