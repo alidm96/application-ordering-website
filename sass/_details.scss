@@ -1,18 +1,18 @@
 .details {
-    background-color: $color-primary;
-    color: $color-gray;
-    grid-row: 4 / 5;
-    grid-column: full-start / full-end;
-    display: grid;
+    background-color:      $color-primary;
+    color:                 $color-gray;
+    grid-row:              4 / 5;
+    grid-column:           full-start / full-end;
+    display:               grid;
     grid-template-columns: repeat(auto-fit, minmax(26rem, 1fr));
-    grid-gap: 8rem 5rem;
-    padding: 15%;
+    grid-gap:              8rem 5rem;
+    padding:               15%;
 
     &__section {
         
         &__title {
-            font-size: 2rem;
-            font-weight: 600;
+            font-size:      2rem;
+            font-weight:    600;
             text-transform: capitalize;
         }
 
